@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>随机网名生成器</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎲 随机网名生成器</h1>
+            <p>一键生成个性十足的网名</p>
+        </header>
+        
+        <main>
+            <div class="options">
+                <label for="style">选择风格：</label>
+                <select id="style">
+                    <option value="all">全部风格</option>
+                    <option value="ancient">古风</option>
+                    <option value="modern">现代</option>
+                    <option value="cute">可爱</option>
+                    <option value="cool">酷炫</option>
+                    <option value="literary">文艺</option>
+                </select>
+            </div>
+            
+            <button id="generateBtn" class="generate-btn">✨ 生成网名</button>
+            
+            <div class="result">
+                <h2>生成结果</h2>
+                <div id="nameList" class="name-list">
+                    <!-- 生成的网名将显示在这里 -->
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>© 2024 MinYou | 已在github开源，欢迎贡献代码</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
