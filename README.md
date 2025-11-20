@@ -80,6 +80,10 @@ function generateNames(style = 'all', count = 10) {  // 将10改为你想要的�
 }
 ```
 
+### 🌏语言
+
+语言默认为CN（简体中文），可以自行翻译
+
 ## 📄 许可证
 
 本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情
